@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seisrtm"
+version = "0.0.1"
+description = "Ambient noise surface wave reverse time migration for fault imaging"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "Haipeng Li", email = "haipeng@stanford.edu" }]
+keywords = [
+    "reverse time migration",
+    "surface waves",
+    "ambient noise",
+    "fault imaging",
+    "elastic wave equation",
+    "seismic imaging",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "deepwave>=0.0.20",
+    "numpy>=1.25",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "torch>=2.0",
+    "jupyter",
+]
+
+[project.urls]
+Paper = "https://doi.org/10.1029/2020JB020381"
+Repository = "https://github.com/subsurface4d/tsw-rtm"
+
+[tool.setuptools.packages.find]
+include = ["seisrtm*"]

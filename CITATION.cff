@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Ambient Noise Surface Wave Reverse Time Migration for Fault Imaging"
+authors:
+  - family-names: "Li"
+    given-names: "Haipeng"
+    email: "haipeng@stanford.edu"
+repository-code: "https://github.com/subsurface4d/tsw-rtm"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Ambient Noise Surface Wave Reverse Time Migration for Fault Imaging"
+  authors:
+    - family-names: "Li"
+      given-names: "Haipeng"
+    - family-names: "Li"
+      given-names: "J."
+    - family-names: "Gu"
+      given-names: "N."
+    - family-names: "Gao"
+      given-names: "J."
+    - family-names: "Zhang"
+      given-names: "H."
+  journal: "Journal of Geophysical Research: Solid Earth"
+  volume: 125
+  issue: 12
+  pages: "e2020JB020381"
+  year: 2020
+  doi: "10.1029/2020JB020381"
